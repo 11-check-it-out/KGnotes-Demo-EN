@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "ef82366fcf400e00",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7a21168ca6e401e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa48b18ac222f2d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6592fa43163fb1f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9607f9cac814219",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27ee703ede15adf6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8ab8ebb95d2edb4b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ab6c4d82d0c57042",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 541.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "4710f9687527d4ba",
+    "type": "split",
+    "children": [
+      {
+        "id": "d135b8b3309a9b4a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aeb41f959f43a0a5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fbb1d8a4a8c0a275",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "46a12dbbe6dfe603",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "144f8026b245c734",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "27ee703ede15adf6",
+  "lastOpenFiles": [
+    "100_Philosophy and psychology/150_Psychology/Social media engagement.md",
+    "README.md",
+    "100_Philosophy and psychology/150_Psychology/Social expectation model.md",
+    "100_Philosophy and psychology/150_Psychology/SME-Impact-Anxiety.md",
+    "100_Philosophy and psychology/150_Psychology/(Negative Perfectionism)-Impact-IPB.md",
+    "100_Philosophy and psychology/150_Psychology/(parent support)-impact-((Psychological Control)-Impact-(EPB)).md",
+    "100_Philosophy and psychology/150_Psychology/(Parent support)-impact-((Psychological Control)-Impact-(IPB)).md",
+    "100_Philosophy and psychology/150_Psychology/(Psychological Control)-Impact-(IPB).md",
+    "100_Philosophy and psychology/150_Psychology/(Social expectation model) - apply - ((parents psychological control) - effect - (negative perfectionism)).md",
+    "100_Philosophy and psychology/150_Psychology/Negative Perfectionism.md"
+  ]
+}
