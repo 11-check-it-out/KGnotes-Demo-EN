@@ -30,13 +30,53 @@ But so far, this note system is only working as a repository of material. Can we
 
 This brings us to the application of knowledge graphs. Based on knowledge graphs, we can easily discover potential connections between entities. For example, if B is known to be a friend of A, D is a friend of B and E is a friend of D, we can deduce that A and D may also know each other. Could we not apply this logic to our note taking system?
 
-![[Pasted image 20221006142436.png]]
+![Pasted image 20221006142436](Attachments/Pasted%20image%2020221006142436.png)
 
-I studied further the content related to knowledge graphs. As a result, I found that if I wanted to implement the above deductions, first of all the knowledge had to be represented symbolically. And this coincides with the subject heading method which was described in the previous section. Thus, the KG notes method, based on the idea of a subject heading method and knowledge graph, was born. (The method will not be further described in this library; interested readers move to [here](https://forum-zh.obsidian.md/t/topic/2059).)
+I studied further the content related to knowledge graphs. As a result, I found that if I wanted to implement the above deductions, first of all the knowledge had to be represented symbolically. And this coincides with the subject heading method which was described in the previous section. Thus, the KG notes method, based on the idea of a subject heading method and knowledge graph, was born. 
 
-![[Pasted image 20221007203325.gif]]
+# Ⅱ. KG Notes Method
 
-# 功能示意
+Now I will briefly introduce KG notes method. (If you want more details, you can try reading [the Chinese version of the instructions](https://forum-zh.obsidian.md/t/topic/2059).)
+
+## 1. Concept introduction
+
+In the KG notes method, all information can be divided into three categories: 
+
+1) a comprehensive discussion of a concept or entity;
+2) a discussion of an aspect of a concept or entity;
+3) a discussion of the relationship of a concept or entity to other concepts or entities.
+
+And according to knowledge graph, we have three types of notes:
+
+1) Concept notes, which are used to record information about a concept. For example, potato-related content is recorded in the note *Potato*.
+2) Entity notes, which are used to record information about an entity. For example, Amazon.com related content is recorded in the note *Amazon.com*.
+3) Relationship notes,  which are used to record information about a relationship. For example, notes about the difference between potatoes and sweet potatoes are recorded in the note *Potato - compare - (sweet potato)*.
+
+All notes reveal their content through their titles. All notes reveal their content through their title. It is important to note that there are four types of titles for relationship notes, depending on the subject heading method:
+
+- Relate: records the existence of a relationship between A and B. For example, a note about why exercise is related to physical health could be recorded in the note *Exercise-Relate-Health*.
+- Compare: records information that compares the differences between A and B. For example, a comparison of the difference between potatoes and sweet potatoes could be recorded in the note *Potatoes - compare - (sweet potatoes)*.
+- Impact: records the impact of A on B. For example, information about how a teacher influences a student could be recorded in the note *Teacher-Impact-Student*.
+- Apply: Record how A is applied to B. For example, content about how mathematics is applied to management could be recorded in the note *Mathematics-Applied-Management*.
+
+It is Important to note that A and B can be concepts or entities, or even relationships. And, there can be more than two objects in the relationship, e.g. "A-B-C-Compare". Also, how you choose these four names is entirely up to you. For the same information, different people may use different titles.
+
+## 2. Putting information in notes
+
+
+Having understood the above concepts, the next thing we need to do is to write down the information in the corresponding notes according to the following rules:
+
+1) For information that discusses a concept or entity in a comprehensive way, we write it down in the corresponding concept note or entity note.
+2) For information that discusses an aspect of a concept or entity, we write it down in the corresponding concept note or entity note, and then create subheadings in that note.
+3) For information that discusses a relationship between A and B, we jot it down in the corresponding relationship note and also link the current relationship note in the concept note or entity note involved in that relationship, for instance `[[A]] -> [[A-compare-B]] <- [[B]]`. Of course, very often the relationship between A and B is very simple, e.g. `A's father is B`. In this case, it is not necessary to create a special relationship note, instead we can just use a link. For example, in note A: `A's father is [[B]]`.
+
+It is important to note that when taking notes, we need to indicate the source of the information through the pandoc reference syntax.
+
+The following GIF shows the entire process in a more visual way.
+
+![Pasted image 20221007203325](Attachments/Pasted%20image%2020221007203325.gif)
+
+# Ⅲ. Examples of features
 
 综上，KG 笔记法具有知识融合、高效检索和简单推理三个特点，接下来本库将对这三个用法进行进一步说明。
 

@@ -18,6 +18,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d99297aba0ad8f0a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Attachments/Pasted image 20221007203325.gif"
+              }
+            }
           }
         ]
       }
@@ -69,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 541.5,
-    "collapsed": true
+    "width": 541.5
   },
   "right": {
     "id": "4710f9687527d4ba",
@@ -130,27 +139,27 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "ribbon": {
     "mostRecentAction": ""
   },
   "active": "27ee703ede15adf6",
   "lastOpenFiles": [
-    "100_Philosophy and psychology/150_Psychology/Social media engagement.md",
+    "Attachments/Pasted image 20221007203325.gif",
+    "Attachments/Pasted image 20221007203325.gif",
     "README.md",
+    "100_Philosophy and psychology/150_Psychology/Social media engagement.md",
     "100_Philosophy and psychology/150_Psychology/Social expectation model.md",
     "100_Philosophy and psychology/150_Psychology/SME-Impact-Anxiety.md",
     "100_Philosophy and psychology/150_Psychology/(Negative Perfectionism)-Impact-IPB.md",
     "100_Philosophy and psychology/150_Psychology/(parent support)-impact-((Psychological Control)-Impact-(EPB)).md",
     "100_Philosophy and psychology/150_Psychology/(Parent support)-impact-((Psychological Control)-Impact-(IPB)).md",
-    "100_Philosophy and psychology/150_Psychology/(Psychological Control)-Impact-(IPB).md",
-    "100_Philosophy and psychology/150_Psychology/(Social expectation model) - apply - ((parents psychological control) - effect - (negative perfectionism)).md",
-    "100_Philosophy and psychology/150_Psychology/Negative Perfectionism.md"
+    "100_Philosophy and psychology/150_Psychology/(Psychological Control)-Impact-(IPB).md"
   ]
 }
