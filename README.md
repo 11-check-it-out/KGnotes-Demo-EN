@@ -52,7 +52,7 @@ And according to knowledge graph, we have three types of notes:
 2) Entity notes, which are used to record information about an entity. For example, Amazon.com related content is recorded in the note *Amazon.com*.
 3) Relationship notes,  which are used to record information about a relationship. For example, notes about the difference between potatoes and sweet potatoes are recorded in the note *Potato - compare - (sweet potato)*.
 
-All notes reveal their content through their titles. All notes reveal their content through their title. It is important to note that there are four types of titles for relationship notes, depending on the subject heading method:
+All notes reveal their content through their titles. It is important to note that there are four types of titles for relationship notes, depending on the subject heading method:
 
 - Relate: records the existence of a relationship between A and B. For example, a note about why exercise is related to physical health could be recorded in the note *Exercise-Relate-Health*.
 - Compare: records information that compares the differences between A and B. For example, a comparison of the difference between potatoes and sweet potatoes could be recorded in the note *Potatoes - compare - (sweet potatoes)*.
@@ -61,13 +61,15 @@ All notes reveal their content through their titles. All notes reveal their cont
 
 It is Important to note that A and B can be concepts or entities, or even relationships. And, there can be more than two objects in the relationship, e.g. "A-B-C-Compare". Also, how you choose these four names is entirely up to you. For the same information, different people may use different titles.
 
-## 2. Putting information in notes
+## 2. 步骤
+
+### 1. Putting information in notes
 
 
 Having understood the above concepts, the next thing we need to do is to write down the information in the corresponding notes according to the following rules:
 
 1) For information that discusses a concept or entity in a comprehensive way, we write it down in the corresponding concept note or entity note.
-2) For information that discusses an aspect of a concept or entity, we write it down in the corresponding concept note or entity note, and then create subheadings in that note.
+2) For information that discusses an aspect of a concept or entity, we write it down in the corresponding concept note or entity note, and then create subheadings in that note. 需要注意的是，有时讨论某个概念某方面的主题也会是一个独立的概念，比如“土豆烹饪”虽然是土豆的一方面，但它可以成为单独的概念笔记，因此我们要把这些内容独立出来。
 3) For information that discusses a relationship between A and B, we jot it down in the corresponding relationship note and also link the current relationship note in the concept note or entity note involved in that relationship, for instance `[[A]] -> [[A-compare-B]] <- [[B]]`. Of course, very often the relationship between A and B is very simple, e.g. `A's father is B`. In this case, it is not necessary to create a special relationship note, instead we can just use a link. For example, in note A: `A's father is [[B]]`.
 
 It is important to note that when taking notes, we need to indicate the source of the information through the pandoc reference syntax.
@@ -75,6 +77,18 @@ It is important to note that when taking notes, we need to indicate the source o
 The following GIF shows the entire process in a more visual way.
 
 ![Pasted image 20221007203325](Attachments/Pasted%20image%2020221007203325.gif)
+
+### 2. 收尾
+
+1. 链接潜在链接
+2. 拆分内容
+3. 归档。选择一种分类法对笔记进行归类。这一方面避免未来同一文件夹下过多文件而造成系统卡顿，也给未来 的检索提供新的角度（分类检索）。当然这一步并不是必要的。
+
+## 3. 一些注意事项
+
+上文中的信息可以是摘录也可以是想法。因此，kg法是一种个人信息组织方法，更侧重如何组织信息，而不是告诉你应该记什么。
+
+另外，我们可以随意创建概念笔记，但需要概念笔记的名称能够汇聚信息。一般来说，大家都用的概念肯定可以创建概念笔记。而一些只有你自己使用的概念同样也可以创建概念笔记，毕竟这是你自己的知识管理系统。因此，创建概念笔记的核心是概念笔记能汇聚一些信息。
 
 # Ⅲ. Examples of features
 
@@ -95,6 +109,7 @@ The following GIF shows the entire process in a more visual way.
 比如，当我想要进一步查找“父母心理控制”相关内容时，我只需要在 Obsidian 的快速切换中输入“父母心理控制”即可定位到相关笔记，并在该笔记中通过小标题进一步定位所需信息。而当我想查找“父母心理控制和外化问题行为之间的关系的时候”，我只要输入“父母心理控制-关系-外化问题行为”即可定位到相关笔记。（你们也可以试试）
 
 ![[Pasted image 20221006143631.gif]]
+
 当然，很多时候一个概念不会只有一个名称。因此，KG 法进一步借鉴了叙词语言的词形控制和词义控制思想，利用 Obsidian 的别名来解决概念的多名称问题。比如查找父母心理控制相关内容，我也可以使用“psychological control”这一英文概念名称。
 
 ![[Pasted image 20221006145129.gif]]
@@ -111,6 +126,7 @@ KG 法的另一特征就是将标题作为语义化的检索符号，结合知�
 ![[Pasted image 20221006150351.gif]]
 
 如结果所示， Path-finder 插件为我绘制了十余条可能的路径。
+
 
 ![[Pasted image 20221006102437.png]]
 
@@ -130,8 +146,13 @@ KG 法的另一特征就是将标题作为语义化的检索符号，结合知�
 6. 利用 Pandoc 排版，并自动生成参考文献，
 7. 发表/发布文章。
 
-# 尾声
+# 未来与展望
 
 示例到这里就结束了。其实将 Obsidian 用于知识管理和知识输出并不是门槛极高的事，并不需要我们把插件商店的六百多个插件研究透彻，关键在于我们是否真的去记录和管理了我们的知识。
 
-根据以往学员的反馈，本方法平均练习记录几十篇笔记后即可上手。如果在使用中遇到了疑惑，或是想将方法应用到自己所从事的领域，欢迎通过[Obsidian 中文论坛](https://forum-zh.obsidian.md/u/ryooo/summary)、[知乎](https://www.zhihu.com/people/rao-yao-47-68)或 [邮箱](kgnotes@163.com) 联系我，我会和你一同探索。
+当然，从理论上来说，KGnotes 也有着自己的限制：
+
+1）三元组理论本身就不适合表达非常复杂的主题。所以在实践中对于复杂主题我们一般只能用最简单的标题去概括。（对于这个限制，如果你了解知识图谱相关知识并有更好的解决办法，欢迎联系我！）
+2）与知识图谱一样，知识的推理需要还要较大的节点与联系才能实现。
+
+不过，从我7k余篇笔记的实践来看，以上限制并不太影响我们日常使用。根据以往学员的反馈，本方法平均练习记录几十篇笔记后即可上手。如果在使用中遇到了疑惑，或是想将方法应用到自己所从事的领域，欢迎通过[Obsidian 中文论坛](https://forum-zh.obsidian.md/u/ryooo/summary)、[知乎](https://www.zhihu.com/people/rao-yao-47-68)或 [邮箱](kgnotes@163.com) 联系我，我会和你一同探索。
