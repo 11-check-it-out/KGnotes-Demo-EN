@@ -52,7 +52,7 @@ And according to knowledge graph, we have three types of notes:
 2) Entity notes, which are used to record information about an entity. For example, Amazon.com related content is recorded in the note *Amazon.com*.
 3) Relationship notes,  which are used to record information about a relationship. For example, notes about the difference between potatoes and sweet potatoes are recorded in the note *Potato - compare - (sweet potato)*.
 
-All notes reveal their content through their titles. All notes reveal their content through their title. It is important to note that there are four types of titles for relationship notes, depending on the subject heading method:
+All notes reveal their content through their titles. It is important to note that there are four types of titles for relationship notes, depending on the subject heading method:
 
 - Relate: records the existence of a relationship between A and B. For example, a note about why exercise is related to physical health could be recorded in the note *Exercise-Relate-Health*.
 - Compare: records information that compares the differences between A and B. For example, a comparison of the difference between potatoes and sweet potatoes could be recorded in the note *Potatoes - compare - (sweet potatoes)*.
@@ -61,13 +61,15 @@ All notes reveal their content through their titles. All notes reveal their cont
 
 It is Important to note that A and B can be concepts or entities, or even relationships. And, there can be more than two objects in the relationship, e.g. "A-B-C-Compare". Also, how you choose these four names is entirely up to you. For the same information, different people may use different titles.
 
-## 2. Putting information in notes
+## 2. 步骤
+
+### 1. Putting information in notes
 
 
 Having understood the above concepts, the next thing we need to do is to write down the information in the corresponding notes according to the following rules:
 
 1) For information that discusses a concept or entity in a comprehensive way, we write it down in the corresponding concept note or entity note.
-2) For information that discusses an aspect of a concept or entity, we write it down in the corresponding concept note or entity note, and then create subheadings in that note.
+2) For information that discusses an aspect of a concept or entity, we write it down in the corresponding concept note or entity note, and then create subheadings in that note. 需要注意的是，有时讨论某个概念某方面的主题也会是一个独立的概念，比如“土豆烹饪”虽然是土豆的一方面，但它可以成为单独的概念笔记，因此我们要把这些内容独立出来。
 3) For information that discusses a relationship between A and B, we jot it down in the corresponding relationship note and also link the current relationship note in the concept note or entity note involved in that relationship, for instance `[[A]] -> [[A-compare-B]] <- [[B]]`. Of course, very often the relationship between A and B is very simple, e.g. `A's father is B`. In this case, it is not necessary to create a special relationship note, instead we can just use a link. For example, in note A: `A's father is [[B]]`.
 
 It is important to note that when taking notes, we need to indicate the source of the information through the pandoc reference syntax.
@@ -75,6 +77,15 @@ It is important to note that when taking notes, we need to indicate the source o
 The following GIF shows the entire process in a more visual way.
 
 ![Pasted image 20221007203325](Attachments/Pasted%20image%2020221007203325.gif)
+
+### 2. 收尾
+
+1. 链接潜在链接
+2. 拆分内容
+
+## 3. 一些注意事项
+
+我们可以随意创建概念笔记，但需要概念笔记的名称能够汇聚信息。一般来说，大家都用的概念肯定可以创建概念笔记。而一些只有你自己使用的概念同样也可以创建概念笔记，毕竟这是你自己的知识管理系统。因此，创建概念笔记的核心是概念笔记能汇聚一些信息。
 
 # Ⅲ. Examples of features
 
