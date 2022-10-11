@@ -13,5 +13,5 @@ tags: ["#repetition"]
 # 影响因素
 
 - [[父母心理控制-关系-内化问题行为]]
-- [[(Psychological Control)-Impact-(IPB)]]
+- [[(Parental Psychological Control)-Impact-(IPB)]]
 - [[(Negative Perfectionism)-Impact-IPB]]

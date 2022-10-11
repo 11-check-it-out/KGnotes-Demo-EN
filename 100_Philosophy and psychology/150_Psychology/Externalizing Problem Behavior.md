@@ -13,6 +13,6 @@ tags: ["#repetition"]
 # 影响因素
 
 - [[父母心理控制-关系-外化问题行为]]
-- [[(Psychological Control)-Impact-(EPB)]]
+- [[(parental psychological control) - impact - (externalising problem behaviour)]]
 - [[(Negative Perfectionism)-Impact-EPB]]
 - [[BC-Impact-EPB]]

@@ -13,7 +13,7 @@ Self-control has been defined as the eﬀort that is exerted to regulate the sel
 
 # 影响因素
 
-- [[(Psychological Control)-Impact-(Self-control)]]
+- [[(Parental Psychological Control)-Impact-(Self-control)]]
 
 # 影响
 

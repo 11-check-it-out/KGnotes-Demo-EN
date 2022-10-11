@@ -10,7 +10,7 @@ I'm sure many of you, are wondering how to use note taking software, or what the
 
 This question has been bothering me ever since taking notes. I had pinned my hopes on note-taking software, hoping that it would tell me the answer. So over the past few years, I have switched to different note-taking software — Evernote, OneNote, Notion, RoamResearch, Obsidian. Every software has told me that I should build my own second brain, that I should generate new insights from my notes. But how to do this? The softwares didn't tell me the answer.
 
-Thus, I saw this as a methodological problem and turned my attention to various note-taking methods. I hoped that these methods would turn my note-taking software into my second brain and allow me to generate new inspiration from my notes. From the original Luhmann Note Box, to the Zettlekasten, to the later series of methods based on them, I have used each of these methods one by one. More than the note taking software itself, these methods are really teaching me how to organise my notes and how to get new ideas out of them. But I still found it a little bit confusing because these methods were more focused on delivering ideas without giving rigorous steps that could be taken to build a personal system of notes -- they were more about telling me the reason and the vision for doing so. When I tried to understand how to build my own system of knowledge, I was always told: "Everyone's system of knowledge is different, you can't copy me, you have to learn from my ideas and build your own system". However, after six months of studying, I couldn't figure it out. So I started to look for a more rigorous approach.
+Thus, I saw this as a methodological problem and turned my attention to various note-taking methods. I hoped that these methods would turn my note-taking software into my second brain and allow me to generate new inspiration from my notes. From the original Luhmann Note Box, to the Zettlekasten, to the later series of methods based on them, I have used each of these methods one by one. More than the note taking software itself, these methods are really teaching me how to organise my notes and how to get new ideas out of them. But I still found it a little bit confusing because these methods were more focused on delivering ideas without giving rigorous steps that could be taken to build a personal system of notes -- they were more about telling me the reason and the vision for doing so. When I tried to understand how to build my own system of knowledge, I was always told: "Everyone's system of knowledge is different, you can't copy me, you have to learn from my ideas and build your own system". However, after six months of studying, I couldn't figure it out. So I started to look for a more operational approach.
 
 In a roundabout way, in 2020, I came across cognitive psychology, library science and information organisation. Since then, I have been looking at the issue from a more professional perspective, building on the findings of previous research.
 
@@ -61,7 +61,7 @@ All notes reveal their content through their titles. It is important to note tha
 
 It is Important to note that A and B can be concepts or entities, or even relationships. And, there can be more than two objects in the relationship, e.g. "A-B-C-Compare". Also, how you choose these four names is entirely up to you. For the same information, different people may use different titles.
 
-## 2. 步骤
+## 2. Procedure
 
 ### 1. Putting information in notes
 
@@ -69,90 +69,92 @@ It is Important to note that A and B can be concepts or entities, or even relati
 Having understood the above concepts, the next thing we need to do is to write down the information in the corresponding notes according to the following rules:
 
 1) For information that discusses a concept or entity in a comprehensive way, we write it down in the corresponding concept note or entity note.
-2) For information that discusses an aspect of a concept or entity, we write it down in the corresponding concept note or entity note, and then create subheadings in that note. 需要注意的是，有时讨论某个概念某方面的主题也会是一个独立的概念，比如“土豆烹饪”虽然是土豆的一方面，但它可以成为单独的概念笔记，因此我们要把这些内容独立出来。
+2) For information that discusses an aspect of a concept or entity, we write it down in the corresponding concept note or entity note, and then create subheadings in that note. It is important to note that sometimes a topic that discusses an aspect of a concept can also be a separate concept. For example, although 'potato cooking' is an aspect of potatoes, it can also be considered as a separate concept, so we should write about it in a separate concept note.
 3) For information that discusses a relationship between A and B, we jot it down in the corresponding relationship note and also link the current relationship note in the concept note or entity note involved in that relationship, for instance `[[A]] -> [[A-compare-B]] <- [[B]]`. Of course, very often the relationship between A and B is very simple, e.g. `A's father is B`. In this case, it is not necessary to create a special relationship note, instead we can just use a link. For example, in note A: `A's father is [[B]]`.
 
 It is important to note that when taking notes, we need to indicate the source of the information through the pandoc reference syntax.
+
+### 2. Wrapping up
+
+Again, there are three steps here: 
+
+1. Spotting potential relationships. After taking the information into the relevant notes, we also look for missing or potential relationships in the notes. If there is a simple relationship, such as `A's mother is C`, we link the related concept or entity using square brackets, like `A's mother is [[C]]`. If there is a complex relationship, we create a relationship note and extract the relevant content into the relationship note.
+2. Splitting up separate concepts. As mentioned earlier, as more content is recorded under a subheading in the concept notes and we learn more about it, we may find that it is actually also a unique concept or we may see it as a concept ourselves. Therefore, we need to separate out this section as well. My potato cooking method, for example, may not be a concept for you, but I can think of it as a unique concept called *ryooo's potato cooking method*.
+3. Classifying and archiving. Finally, we need to choose a taxonomy for the archiving of the notes taken. Dewey Decimal Classification, Library of Congress Classification, para, any classification will be fine. On the one hand, this is to avoid future system lag caused by too many files in the same folder, and on the other hand it gives a new perspective for future searches ( classification searches). This step is not necessary, however.
 
 The following GIF shows the entire process in a more visual way.
 
 ![Pasted image 20221007203325](Attachments/Pasted%20image%2020221007203325.gif)
 
-### 2. 收尾
+## 3. Some things to keep in mind
 
-1. 链接潜在链接
-2. 拆分内容
-3. 归档。选择一种分类法对笔记进行归类。这一方面避免未来同一文件夹下过多文件而造成系统卡顿，也给未来 的检索提供新的角度（分类检索）。当然这一步并不是必要的。
+The 'information' in the above can be either extracts from articles or your own unique ideas. The KG notes method is therefore a way of organising personal information, focusing more on how to organise the information rather than telling you what information should be written down. (I don't actually think this is something that knowledge organisations should be concerned with.)
 
-## 3. 一些注意事项
-
-上文中的信息可以是摘录也可以是想法。因此，kg法是一种个人信息组织方法，更侧重如何组织信息，而不是告诉你应该记什么。
-
-另外，我们可以随意创建概念笔记，但需要概念笔记的名称能够汇聚信息。一般来说，大家都用的概念肯定可以创建概念笔记。而一些只有你自己使用的概念同样也可以创建概念笔记，毕竟这是你自己的知识管理系统。因此，创建概念笔记的核心是概念笔记能汇聚一些信息。
+In addition, the naming of concept notes is relatively arbitrary, as the essence of concept notes is to use the title as a retrieval symbol for the content in the notes. Therefore, this retrieval symbol we can either use a commonly accepted concept name or our own habitual concept name, as long as we ourselves know which information the symbol refers to.
 
 # Ⅲ. Examples of features
 
-综上，KG 笔记法具有知识融合、高效检索和简单推理三个特点，接下来本库将对这三个用法进行进一步说明。
+In summary, the KG notes method is characterised by three features: knowledge integration, efficient retrieval and simple deduction, and these three usages will be further explained in this vault.
 
-## 知识融合
+## 1. Knowledge integration
 
-知识融合是高效检索的前提，也是个人知识管理系统和图书馆最大的区别。毕竟讲述同一个主题的书可以由不同的作者出版成百上千本，但对于个人来说，一个主题的知识就应当汇聚在一起，方便我们后期利用时一次性检索完全。由于 KG 笔记法以严格控制的标题为检索符号，因此我们在记录新知识时能很方便地将同一个主题的知识内容记录到同一篇笔记上，从而把相同主题的知识融合在一起。
+Knowledge integration is a precondition for efficient retrieval and is the biggest difference between a personal knowledge management system and a library. After all, hundreds of books on the same subject can be published by different authors, but for the individual, knowledge on a single subject should be brought together so that we can easily retrieve it all at once when we need it.
 
-比如，无论是现在还是未来，当我看了关于“父母心理控制”的文章，想摘抄原文或产生了新想法新洞见时，我都能轻松地找到《父母心理控制》这篇笔记，将摘录或灵感登记于其上，方便我后续检索利用。
+For example, now and in the future, when I read an article about "Parental Psychological Control" and want to extract the original text or have a new idea about this topic, I can easily find the note Parental Mind Control" and record the extract or inspiration on it, which I can easily retrieve and use later.
 
-![[Pasted image 20221007193220.png]]
+![](Attachments/Pasted%20image%2020221007193220.png)
 
-## 高效检索
+## Efficiently search
 
-与侧重于搜索的方法不同，KG 法将工作重心前移到了组织环节，将严格控制的标题作为检索符号，以降低后期检索的复杂性。
+In contrast to search-focused methods, the KG notes method moves the focus forward to organisation, using strictly controlled titles as retrieval symbols to reduce the complexity of searches.
 
-比如，当我想要进一步查找“父母心理控制”相关内容时，我只需要在 Obsidian 的快速切换中输入“父母心理控制”即可定位到相关笔记，并在该笔记中通过小标题进一步定位所需信息。而当我想查找“父母心理控制和外化问题行为之间的关系的时候”，我只要输入“父母心理控制-关系-外化问题行为”即可定位到相关笔记。（你们也可以试试）
+For example, when I want to find out more about "parental psychological control", I simply type `parental psychological control` into Obsidian's quick switcher so that I can find the relevant note. Then I can use the outline of this note to find the information I need in the corresponding subheadings. When I want to find information about "The impact of parental psychological control on externalising problem behaviour", I just type in `(parental psychological control) - impact - (externalising problem behaviour)` to locate the relevant note. (You can try this too)
 
-![[Pasted image 20221006143631.gif]]
+![](Attachments/Pasted%20image%2020221006143631.gif)
 
-当然，很多时候一个概念不会只有一个名称。因此，KG 法进一步借鉴了叙词语言的词形控制和词义控制思想，利用 Obsidian 的别名来解决概念的多名称问题。比如查找父母心理控制相关内容，我也可以使用“psychological control”这一英文概念名称。
+Of course, very often a concept does not have only one name. Therefore, the KG notes method further draws on the ideas of morphological control and lexical control in subject terms, using Obsidian aliases to solve the problem of multiple names for concepts. For example, if I were to look up parental psychological control, I could also use the Chinese concept name '父母心理控制'.
 
-![[Pasted image 20221006145129.gif]]
-最后，如果我重读了笔记中的内容但仍然无法理解时，我可以通过笔记末尾的 pandoc 引用语法 `[@citekey, page]`，使用 [Quicker动作](https://getquicker.net/Sharedaction?code=d76ca089-0769-4a61-8a63-08d916bcf619) 快速跳转回原文献 PDF，从而结合上下文进一步回忆理解笔记内容。
+![](Attachments/Pasted%20image%2020221006145129.gif)
 
-![[Pasted image 20221006145916.gif]]
+Finally, if I reread something in my notes but still can't understand it, I can use the pandoc reference syntax `[@citekey, page]` at the end of my notes to use [Quicker action](https://getquicker.net/Sharedaction?code=d76ca089-0769 -4a61-8a63-08d916bcf619) to quickly jump back to the original PDF to further understand the notes in context.
 
-## 知识推理
+![](Attachments/Pasted%20image%2020221006145916.gif)
 
-KG 法的另一特征就是将标题作为语义化的检索符号，结合知识图谱的思想，从而能一定程度上基于笔记内容对潜在关系进行推理。
+## Knowledge deduction
 
-比如，当我需要写一篇关于“父母控制是否会导致孩子焦虑”的论文时，我可以通过 Path-finder 插件检索以《父母控制》这篇笔记为起点、以《焦虑》这篇笔记为终点的路径图。
+Another feature of the KG notes method is the use of titles as semantic retrieval symbols, combined with the idea of knowledge graphs, thus enabling a certain degree of deduction of potential relationships based on the content of the notes.
 
-![[Pasted image 20221006150351.gif]]
+For example, when I need to write a paper on "Does parental control cause anxiety among children", I can use the Path-finder plugin to create a path map starting with the note *Parental control* and ending with the note *Anxiety*.
 
-如结果所示， Path-finder 插件为我绘制了十余条可能的路径。
+![](Attachments/Pasted%20image%2020221006150351.gif)
 
+As you can see, the Path-finder plugin drew more than ten possible paths for me.
 
-![[Pasted image 20221006102437.png]]
+![](Attachments/Pasted%20image%2020221011211426.png)
 
-接下来我需要做的，只需要判断哪条路径在逻辑上最为可行即可。并且，由于 KG 法知识融合的特性，每篇笔记都汇聚了所有关于其标题的内容，因此我不必再打开文献库查找原始文献，而只需要打开路径上的笔记即可对路径进行深入研究。
+All I had to do next was to determine which path was the most logically possible. And, thanks to the knowledge integration characteristic of the KG notes method, each note brings together all the content about its title. So instead of opening the literature management software to find the original literature, I can simply open the notes on the paths and do a deeper dive into the paths.
 
-![[Pasted image 20221006150723.png]]
+![](Attachments/Pasted%20image%2020221011211543.png)
 
-# 三、场景示例：应用 KG 法于写作
+# IV. Example scenario: applying the KG notes method to writing
 
-在 KG 法的帮助下，使用笔记输出文章就变得比较具有实际操作性了：
+With the help of the KG notes method, it becomes more operational to use notes to produce articles:
 
-1. 可以在大脑中或 Obsidain 中随意漫游节点，想想看哪两个节点可能存在关联。
-2. 使用 Path-finder 来计算这两个节点间的潜在逻辑路径。
-3. 在计算结果中找到我们觉得逻辑上最为可行的那条路径。
-4. 阅读路径上经过的笔记，进一步研究这条路径是否切实可行。
-5. 将路径代表的逻辑转换为文章。文章所需要使用的引文可从笔记中直接获取，一般无需重新翻阅文献库。
-6. 利用 Pandoc 排版，并自动生成参考文献，
-7. 发表/发布文章。
+1. Feel free to roam around the nodes in your brain or in Obsidain to see which two nodes might be related.
+2. Use Path-finder to calculate a potential logical path between these two nodes.
+3. Find the path that we feel is most logically feasible from the results of the calculation.
+4. read the notes passed on the path to further investigate whether this path is feasible.
+5. Translate the logic represented by the path into an article. The citations needed for the article can be obtained directly from the notes and there is usually no need to go back through the literature management software.
+6. using Pandoc to layout and automatically generate references.
+7. publish the article in a journal or blog.
 
-# 未来与展望
+# V. Prospect
 
-示例到这里就结束了。其实将 Obsidian 用于知识管理和知识输出并不是门槛极高的事，并不需要我们把插件商店的六百多个插件研究透彻，关键在于我们是否真的去记录和管理了我们的知识。
+This is the end of the example. In fact, it is not difficult to use Obsidian for knowledge management and knowledge production, we don't need to study the 600+ plugins in the plugin shop thoroughly, the key is whether we have actually recorded and managed our knowledge.
 
-当然，从理论上来说，KGnotes 也有着自己的限制：
+In theory, of course, KG notes method has its own limitations.
 
-1）三元组理论本身就不适合表达非常复杂的主题。所以在实践中对于复杂主题我们一般只能用最简单的标题去概括。（对于这个限制，如果你了解知识图谱相关知识并有更好的解决办法，欢迎联系我！）
-2）与知识图谱一样，知识的推理需要还要较大的节点与联系才能实现。
+1) The triplet theory itself is not suitable for expressing very complex topics. So in practice, we can only use the simplest titles to summarise complex topics. (If you know anything about knowledge graphs and have a better solution to this limitation, please contact me!)
+2) As with knowledge graphs, knowledge deduction requires a large number of nodes and connections to achieve.
 
-不过，从我7k余篇笔记的实践来看，以上限制并不太影响我们日常使用。根据以往学员的反馈，本方法平均练习记录几十篇笔记后即可上手。如果在使用中遇到了疑惑，或是想将方法应用到自己所从事的领域，欢迎通过[Obsidian 中文论坛](https://forum-zh.obsidian.md/u/ryooo/summary)、[知乎](https://www.zhihu.com/people/rao-yao-47-68)或 [邮箱](kgnotes@163.com) 联系我，我会和你一同探索。
+Overall, however, from my practice of over 7,000 notes, the above limitations do not affect our daily use too much. According to feedback from other users, this method can be mastered after practising taking a few dozen notes on average. If you encounter doubts in using it, or would like to apply the method to your own field, please feel free to contact me, and I will explore with you.

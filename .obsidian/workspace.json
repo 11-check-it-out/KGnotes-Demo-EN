@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c7a21168ca6e401e",
+        "id": "23f3ca2bd6157d35",
         "type": "tabs",
         "children": [
           {
-            "id": "fa48b18ac222f2d3",
+            "id": "3090d59b0172f61e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,16 +16,6 @@
                 "file": "README.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "d99297aba0ad8f0a",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Attachments/Pasted image 20221007203325.gif"
               }
             }
           }
@@ -145,22 +135,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 299.5,
+    "collapsed": true
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "27ee703ede15adf6",
+  "active": "3090d59b0172f61e",
   "lastOpenFiles": [
-    "Attachments/Pasted image 20221007203325.gif",
-    "Attachments/Pasted image 20221007203325.gif",
+    "Attachments/Pasted image 20221006150723.png",
     "README.md",
-    "100_Philosophy and psychology/150_Psychology/Social media engagement.md",
-    "100_Philosophy and psychology/150_Psychology/Social expectation model.md",
-    "100_Philosophy and psychology/150_Psychology/SME-Impact-Anxiety.md",
-    "100_Philosophy and psychology/150_Psychology/(Negative Perfectionism)-Impact-IPB.md",
-    "100_Philosophy and psychology/150_Psychology/(parent support)-impact-((Psychological Control)-Impact-(EPB)).md",
-    "100_Philosophy and psychology/150_Psychology/(Parent support)-impact-((Psychological Control)-Impact-(IPB)).md",
-    "100_Philosophy and psychology/150_Psychology/(Psychological Control)-Impact-(IPB).md"
+    "100_Philosophy and psychology/150_Psychology/Parental Psychological Control.md",
+    "Attachments/Pasted image 20221006102437.png",
+    "Attachments/Pasted image 20221006150351.gif",
+    "Attachments/Pasted image 20221006145916.gif",
+    "Attachments/Pasted image 20221006145129.gif",
+    "Attachments/Pasted image 20221007193220.png",
+    "Attachments/Pasted image 20221006143631.gif",
+    "100_Philosophy and psychology/150_Psychology/Anxiety.md"
   ]
 }

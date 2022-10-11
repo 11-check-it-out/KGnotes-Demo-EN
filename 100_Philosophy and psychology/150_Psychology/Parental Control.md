@@ -8,5 +8,5 @@ tags: ["#repetition"]
 
 # 分类
 
-- [[Psychological Control]]
+- [[100_Philosophy and psychology/150_Psychology/Parental Psychological Control]]
 - [[Behavioral Control]]
