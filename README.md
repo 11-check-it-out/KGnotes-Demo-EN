@@ -1,4 +1,4 @@
-This is a demo vault for [KG Notes](https://forum-zh.obsidian.md/t/topic/2059) (Knowledge Graph Notes). This vault will explain the creation and basic use of KG Notes. To experience the full feature, you need to use this vault with the [path-finder](https://github.com/jerrywcy/obsidian-path-finder) plugin (which is installed in this vault).
+This is a demo vault for [KG Notes (Knowledge Graph Notes) Method](README.md#Ⅱ.%20KG%20Notes%20Method). This vault will explain the creation and basic use of KG Notes. To experience the full feature, you need to use this vault with the [path-finder](https://github.com/jerrywcy/obsidian-path-finder) plugin (which is installed in this vault).
 
 (sorry for my poor English. If you know Chinese, you can read [Chinese Version](https://github.com/11-check-it-out/KGnotes-demo).)
 
@@ -104,7 +104,7 @@ For example, now and in the future, when I read an article about "Parental Psych
 
 ![](Attachments/Pasted%20image%2020221007193220.png)
 
-## Efficiently search
+## 2. Efficiently search
 
 In contrast to search-focused methods, the KG notes method moves the focus forward to organisation, using strictly controlled titles as retrieval symbols to reduce the complexity of searches.
 
@@ -120,7 +120,7 @@ Finally, if I reread something in my notes but still can't understand it, I can 
 
 ![](Attachments/Pasted%20image%2020221006145916.gif)
 
-## Knowledge deduction
+## 3. Knowledge deduction
 
 Another feature of the KG notes method is the use of titles as semantic retrieval symbols, combined with the idea of knowledge graphs, thus enabling a certain degree of deduction of potential relationships based on the content of the notes.
 
