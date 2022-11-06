@@ -10,13 +10,15 @@
           {
             "id": "3090d59b0172f61e",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ]
@@ -69,8 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 541.5,
-    "collapsed": true
+    "width": 541.5
   },
   "right": {
     "id": "4710f9687527d4ba",
@@ -135,23 +136,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
-  },
-  "ribbon": {
-    "mostRecentAction": ""
+    "width": 299.5
   },
   "active": "3090d59b0172f61e",
   "lastOpenFiles": [
-    "Attachments/Pasted image 20221006150723.png",
+    "Attachments/Pasted image 20221106113323.gif",
+    "Attachments/Pasted image 20221006142436.png",
     "README.md",
+    "Attachments/动画.gif",
+    "100_Philosophy and psychology/Property (Philosophy).md",
+    "000_Computer science, information and general works/Property (HTML).md",
+    "Attachments/Pasted image 20221006150723.png",
     "100_Philosophy and psychology/150_Psychology/Parental Psychological Control.md",
     "Attachments/Pasted image 20221006102437.png",
-    "Attachments/Pasted image 20221006150351.gif",
-    "Attachments/Pasted image 20221006145916.gif",
-    "Attachments/Pasted image 20221006145129.gif",
-    "Attachments/Pasted image 20221007193220.png",
-    "Attachments/Pasted image 20221006143631.gif",
-    "100_Philosophy and psychology/150_Psychology/Anxiety.md"
+    "Attachments/Pasted image 20221006150351.gif"
   ]
 }

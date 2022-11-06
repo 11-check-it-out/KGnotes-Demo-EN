@@ -88,9 +88,21 @@ The following GIF shows the entire process in a more visual way.
 
 ## 3. Some things to keep in mind
 
+### 1. Specific meaning of "information"
+
 The 'information' in the above can be either extracts from articles or your own unique ideas. The KG notes method is therefore a way of organising personal information, focusing more on how to organise the information rather than telling you what information should be written down. (I don't actually think this is something that knowledge organisations should be concerned with.)
 
+### 2. About naming
+
 In addition, the naming of concept notes is relatively arbitrary, as the essence of concept notes is to use the title as a retrieval symbol for the content in the notes. Therefore, this retrieval symbol we can either use a commonly accepted concept name or our own habitual concept name, as long as we ourselves know which information the symbol refers to.
+
+However, when naming, we need to pay attention to the problem of multi-word synonymy and one-word multiple meanings. If these two problems are not solved, it will reduce our search efficiency.
+
+Multi-word synonymy means that the same content can use different titles as retrieval symbols. For example, for information about potatoes, we can store it in either *potatoes* or *spud*. This would make information on the same topic scattered in different retrieval symbols. If we cannot exhaust all the retrieved symbols when searching, we will not be able to retrieve all the content we need. This will reduce the efficiency of our search. (This is also the problem with keyword full-text search.)
+
+The term "one-word multiple meanings" means that different content can use the same title as a retrieval symbol. For example, the concept of "property" is used in philosophy, in HTML, and in the Knowledge Graph. We may put the content about "properties" in philosophy into *Properties*, and we may also put the description of properties in HTML into *Properties*. This can make our search return too much irrelevant content and reduce the efficiency of the search. (This is also the problem with keyword full-text search.)
+
+So how to solve these two problems? The subject language of information organization has also already prepared a solution. For multi-word synonymy, we need to associate different retrieval symbols with the same piece of information at the same time. For example, for information about potatoes, we can give both the `potato` and `spud` symbols. In the case of one-word multiple meanings, we can use modifiers to further clarify the retrieval symbols. For example, properties' in philosophy is represented by `properties (philosophy)`, and properties in HMTL are represented by `properties (HTML)`. Of course, retrieval symbols with modifiers do not match our search intuition, therefore we can associate them with symbols without modifiers, so that we can both use intuitive symbols and distinguish precisely between different fields of information. See [below](#2.%20Efficiently%20search) for a detailed practical approach.
 
 # Ⅲ. Examples of features
 
@@ -112,11 +124,15 @@ For example, when I want to find out more about "parental psychological control"
 
 ![](Attachments/Pasted%20image%2020221006143631.gif)
 
-Of course, very often a concept does not have only one name. Therefore, the KG notes method further draws on the ideas of morphological control and lexical control in subject terms, using Obsidian aliases to solve the problem of multiple names for concepts. For example, if I were to look up parental psychological control, I could also use the Chinese concept name '父母心理控制'.
+Of course, very often a concept does not have only one name. The KG notes method uses Obsidian aliases to solve the problem of multi-word synonymy of concepts, based on the idea described earlier. For example, if I were to look up parental psychological control, I could also use the Chinese concept name '父母心理控制'. This can also solve the potato & spud problem.
 
 ![](Attachments/Pasted%20image%2020221006145129.gif)
 
-Finally, if I reread something in my notes but still can't understand it, I can use the pandoc reference syntax `[@citekey, page]` at the end of my notes to use [Quicker action](https://getquicker.net/Sharedaction?code=d76ca089-0769 -4a61-8a63-08d916bcf619) to quickly jump back to the original PDF to further understand the notes in context.
+When different concepts require the same title, the KG notes method uses titles with modifiers to distinguish the same title, and uses aliases to facilitate searching. For example, the content about "properties" in philosophy is recorded in *Properties (Philosophy)* and given the alias `Philosophy`. This way, whether you search directly for the title `Property (Philosophy)` or `Property`, you will find the information.
+
+![](Attachments/Pasted%20image%2020221106113323.gif)
+
+Finally, if I reread something in my notes but still can't understand it, I can use the pandoc reference syntax `[@citekey, page]` at the end of my notes to use [Quicker action](https://getquicker.net/Sharedaction?code=d76ca089-0769 -4a61-8a63-08d916bcf619) to quickly jump back to the original PDF to further understand the notes in context. (The basic idea is to find the path of the source document corresponding to the current citekey in the bib file, and then open it.)
 
 ![](Attachments/Pasted%20image%2020221006145916.gif)
 
